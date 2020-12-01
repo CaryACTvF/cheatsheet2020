@@ -1,4 +1,5 @@
-// Unit 3 - Lesson 1
+// Unit 3
+// Material Introduced in Spam Pop Up and Madlib Projects
 // Storing variables
 // Input and Output through Pop Ups
 
@@ -18,6 +19,10 @@ prompt("Your question goes here?")
 // To ask a question and store the answer in memory
 let name = prompt("What is your name?");
 
+//
+// Material Introduced in Soundboard Project
+//
+
 // For selecting an element:
 // Replace the phrase "CSS Selector" with a CSS selector for the object you are selecting. Leave the quotes.
 let variable_name = document.querySelector("CSS Selector");
@@ -34,3 +39,15 @@ element.addEventListener("event_type", function() {
 // Replace sound with the variable for your sound element.
 sound.currentTime = 0;
 sound.play();
+
+//
+// Material Introduced in Robot Interview Project
+//
+
+// Getting and storing a value from the user using an <input> field:
+let input_field = document.querySelector("CSS Selector");
+let input_value = input_field.value;
+
+// Outputting information into the HTML of the webpage:
+let output_field = document.querySelector("CSS Selector");
+output_field.innerHTML = "The text you want to appear on the page."
