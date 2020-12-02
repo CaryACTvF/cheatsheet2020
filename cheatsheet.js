@@ -58,7 +58,7 @@ output_field.innerHTML = "The text you want to appear on the page."
 
 // Create a random number function.
 function generate_random(min_number, max_number) {
-	// Generates a random number from 0 to max_number.
+	// Generates a random number from min_number to max_number.
 	let range = max_number - min_number;
 	return min_number + Math.round(Math.random()*range);
 }
