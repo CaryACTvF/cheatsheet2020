@@ -65,3 +65,7 @@ function generate_random(min_number, max_number) {
 
 // Use a random number function.
 generate_random(min_number, max_number);
+
+// How to change an elements CSS styling
+// Replace the words element, property, and value as needed
+element.style.property = value;
