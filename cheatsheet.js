@@ -51,3 +51,17 @@ let input_value = input_field.value;
 // Outputting information into the HTML of the webpage:
 let output_field = document.querySelector("CSS Selector");
 output_field.innerHTML = "The text you want to appear on the page."
+
+//
+// Material Introduced during Change Background Project
+//
+
+// Create a random number function.
+function generate_random(min_number, max_number) {
+	// Generates a random number from 0 to max_number.
+	let range = max_number - min_number;
+	return min_number + Math.round(Math.random()*range);
+}
+
+// Use a random number function.
+generate_random(min_number, max_number);
