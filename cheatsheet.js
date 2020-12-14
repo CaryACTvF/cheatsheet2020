@@ -69,3 +69,13 @@ generate_random(min_number, max_number);
 // How to change an elements CSS styling
 // Replace the words element, property, and value as needed
 element.style.property = value;
+
+//
+// Material Introduced during the Calculator Project
+//
+
+// To turn something into a number datatype:
+let number_version = Number(string_version);
+
+// To turn something into a string datatype:
+let string_version = String(number_version);
