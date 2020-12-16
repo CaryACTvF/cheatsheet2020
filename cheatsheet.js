@@ -79,3 +79,14 @@ let number_version = Number(string_version);
 
 // To turn something into a string datatype:
 let string_version = String(number_version);
+
+// 
+// Condiontional Statements Material
+//
+
+if (conditon) {
+	// Code block if the condition is true
+}
+else {
+	// Code block if the condition is false
+}
