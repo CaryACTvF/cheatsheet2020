@@ -90,3 +90,8 @@ if (conditon) {
 else {
 	// Code block if the condition is false
 }
+
+// For Each loops:
+LISTNAME.forEach((INDIVIDUALITEMNAME) => {
+	// Code that runs for each item goes here.
+})
