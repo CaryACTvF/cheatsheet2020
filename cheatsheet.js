@@ -91,7 +91,14 @@ else {
 	// Code block if the condition is false
 }
 
+// UNIT 5 - LOOPS
+
 // For Each loops:
 LISTNAME.forEach((INDIVIDUALITEMNAME) => {
 	// Code that runs for each item goes here.
 })
+
+// Set Interval Loops
+setInterval(function() {
+	// Function that repeats goes here!
+}, TIME)
