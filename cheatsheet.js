@@ -102,3 +102,8 @@ LISTNAME.forEach((INDIVIDUALITEMNAME) => {
 setInterval(function() {
 	// Function that repeats goes here!
 }, TIME)
+
+// While Loops
+while (CONDTION) {
+	// Code block that runs while the condition is TRUE
+}
