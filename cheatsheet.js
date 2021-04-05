@@ -110,14 +110,18 @@ while (CONDTION) {
 
 // Unit 6
 // List Tools
+
+// To add something
 function append(list, value) {
 	list = list.push(value);
 }
 
+// To insert something
 function insert(list, i, value) {
 	list = list.splice(i, 0, value);
 }
 
+// To remove something
 function remove(list, i) {
 	list = list.splice(i, 1);
 }
