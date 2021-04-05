@@ -107,3 +107,18 @@ setInterval(function() {
 while (CONDTION) {
 	// Code block that runs while the condition is TRUE
 }
+
+// Unit 6
+// List Tools
+function append(list, value) {
+	list = list.push(value);
+}
+
+function insert(list, i, value) {
+	list = list.splice(i, 0, value);
+}
+
+function remove(list, i) {
+	list = list.splice(i, 1);
+}
+// End of List Tools
