@@ -132,3 +132,16 @@ function remove(list, i) {
 function nameOfYourFunction(input1,input2,...) {
 	// Procedure for function.
 }
+
+// Useful function we built as a class to display text on the screen:
+function display(text) {
+	// This code will display text on the screen!
+	// Select the body, <body> of the website
+	let body = document.querySelector("body");
+	// Create a new paragraph, <p>
+	let newParagraph = document.createElement("p");
+	// Change the text of the paragraph to the desired text
+	newParagraph.innerHTML = text;
+	// Add the paragraph to the <body> of the website
+	body.appendChild(newParagraph);
+}
