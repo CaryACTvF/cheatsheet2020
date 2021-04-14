@@ -126,3 +126,9 @@ function remove(list, i) {
 	list = list.splice(i, 1);
 }
 // End of List Tools
+
+// Creating our own functions:
+// Defining a function.
+function nameOfYourFunction(input1,input2,...) {
+	// Procedure for function.
+}
