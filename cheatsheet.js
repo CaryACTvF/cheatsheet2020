@@ -145,3 +145,16 @@ function display(text) {
 	// Add the paragraph to the <body> of the website
 	body.appendChild(newParagraph);
 }
+
+// Factorial of a function:
+function factorial(number) {
+  let answer = number;
+
+  while (number != 1) {
+    number = number - 1;
+    answer = answer * number;
+  }
+
+  console.log(answer);
+}
+
